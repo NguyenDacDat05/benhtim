@@ -1,0 +1,832 @@
+﻿antecedents,consequents,support,confidence,lift
+"fbs=False, no_disease, thal=normal",ca=0.0,0.1,0.7603,3.8647
+"ca=0.0, no_disease","fbs=False, thal=normal",0.1,0.6917,3.8337
+"no_disease, thal=normal","ca=0.0, fbs=False",0.1,0.6667,3.8095
+"no_disease, thal=normal",ca=0.0,0.1109,0.7391,3.7569
+"ca=0.0, fbs=False, no_disease",thal=normal,0.1,0.7797,3.6596
+"ca=0.0, no_disease",thal=normal,0.1109,0.7669,3.5998
+"hr=high, thal=normal",ca=0.0,0.1076,0.6781,3.4466
+"ca=0.0, exang=False",thal=normal,0.1065,0.7313,3.4328
+"ca=0.0, hr=high",thal=normal,0.1076,0.6972,3.2725
+"exang=False, thal=normal",ca=0.0,0.1065,0.6364,3.2346
+"fbs=False, thal=normal",ca=0.0,0.1141,0.6325,3.2151
+"ca=0.0, fbs=False",thal=normal,0.1141,0.6522,3.0612
+ca=0.0,thal=normal,0.125,0.6354,2.9823
+"hr=high, slope=upsloping",thal=normal,0.1011,0.6242,2.9297
+"hr=high, thal=normal",slope=upsloping,0.1011,0.637,2.8868
+"ca=0.0, exang=False","hr=high, no_disease",0.1076,0.7388,2.4989
+"cp=atypical angina, exang=False","dp=mild, no_disease",0.1315,0.8013,2.4822
+"disease, exang=True","cp=asymptomatic, slope=flat",0.1022,0.6483,2.4645
+"cp=atypical angina, hr=high","dp=mild, no_disease",0.1065,0.784,2.4286
+"cp=atypical angina, dp=mild","hr=high, no_disease",0.1065,0.7101,2.402
+"cp=atypical angina, dp=mild","exang=False, no_disease",0.1315,0.8768,2.4008
+"cp=atypical angina, exang=False","hr=high, no_disease",0.1152,0.702,2.3744
+cp=atypical angina,"dp=mild, exang=False, no_disease",0.1315,0.6954,2.3608
+"cp=asymptomatic, dp=severe","exang=True, sex=Male",0.1076,0.75,2.3469
+"cp=atypical angina, hr=high","exang=False, no_disease",0.1152,0.848,2.3219
+"cp=atypical angina, fbs=False","dp=mild, no_disease",0.1217,0.7467,2.3129
+cp=atypical angina,"exang=False, hr=high, no_disease",0.1152,0.6092,2.3064
+"exang=False, thal=normal","hr=high, no_disease",0.1141,0.6818,2.3061
+"cp=asymptomatic, dp=severe, sex=Male",exang=True,0.1076,0.8319,2.2712
+cp=atypical angina,"dp=mild, no_disease",0.138,0.7299,2.2609
+"cp=atypical angina, fbs=False","hr=high, no_disease",0.1087,0.6667,2.2549
+"cp=asymptomatic, disease, slope=flat",exang=True,0.1022,0.8246,2.251
+cp=atypical angina,"dp=mild, fbs=False, no_disease",0.1217,0.6437,2.2431
+"cp=atypical angina, fbs=False","exang=False, no_disease",0.1315,0.8067,2.2087
+cp=atypical angina,"exang=False, fbs=False, no_disease",0.1315,0.6954,2.2061
+"dp=mild, sex=Female","exang=False, no_disease",0.1076,0.7984,2.1861
+"fbs=False, thal=normal","hr=high, no_disease",0.1163,0.6446,2.1802
+"disease, slope=flat","cp=asymptomatic, exang=True",0.1022,0.6528,2.1759
+"cp=atypical angina, exang=False","dp=mild, hr=high",0.1109,0.6755,2.1729
+"cp=asymptomatic, dp=severe",exang=True,0.1141,0.7955,2.1716
+cp=atypical angina,"hr=high, no_disease",0.1207,0.6379,2.1577
+cp=atypical angina,"exang=False, no_disease",0.1478,0.7816,2.1401
+ca=0.0,"hr=high, no_disease",0.1239,0.6298,2.1303
+"ca=0.0, fbs=False","hr=high, no_disease",0.1098,0.6273,2.1218
+"cp=asymptomatic, fbs=False, slope=flat",exang=True,0.1554,0.7772,2.1217
+"cp=atypical angina, dp=mild","fbs=False, no_disease",0.1217,0.8116,2.1152
+"hr=medium, slope=flat","cp=asymptomatic, exang=True",0.1152,0.631,2.1032
+"dp=severe, sex=Male","cp=asymptomatic, exang=True",0.1076,0.6306,2.1019
+"cp=atypical angina, no_disease","dp=mild, hr=high",0.1065,0.6533,2.1016
+"cp=atypical angina, dp=mild, fbs=False",no_disease,0.1217,0.9333,2.0892
+"cp=atypical angina, dp=mild, hr=high",no_disease,0.1065,0.9333,2.0892
+"cp=atypical angina, exang=False","fbs=False, no_disease",0.1315,0.8013,2.0884
+"cp=atypical angina, hr=high","fbs=False, no_disease",0.1087,0.8,2.085
+"ca=0.0, thal=normal","fbs=False, no_disease",0.1,0.8,2.085
+"cp=atypical angina, dp=mild, exang=False",no_disease,0.1315,0.9308,2.0835
+"age=40-50, exang=False","dp=mild, no_disease",0.1076,0.6689,2.0721
+thal=normal,"hr=high, no_disease",0.1304,0.6122,2.0708
+"no_disease, thal=normal","exang=False, hr=high",0.1141,0.7609,2.0649
+"cp=atypical angina, dp=mild",no_disease,0.138,0.9203,2.06
+"exang=False, sex=Female","dp=mild, no_disease",0.1076,0.6644,2.0582
+"fbs=False, hr=medium, slope=flat",exang=True,0.1087,0.7519,2.0526
+"cp=atypical angina, exang=False, fbs=False",no_disease,0.1315,0.9167,2.0519
+"cp=asymptomatic, hr=medium, slope=flat",exang=True,0.1152,0.7465,2.0379
+"cp=atypical angina, exang=False, hr=high",no_disease,0.1152,0.906,2.028
+"dp=mild, fbs=False, sex=Female",no_disease,0.1043,0.9057,2.0273
+"ca=0.0, no_disease","exang=False, hr=high",0.1076,0.7444,2.0201
+"dp=mild, sex=Female","fbs=False, no_disease",0.1043,0.7742,2.0177
+"cp=atypical angina, fbs=False, hr=high",no_disease,0.1087,0.9009,2.0166
+"cp=atypical angina, exang=False",no_disease,0.1478,0.9007,2.0161
+"cp=atypical angina, fbs=False","dp=mild, hr=high",0.1022,0.6267,2.0159
+"dp=mild, exang=False, sex=Female",no_disease,0.1076,0.9,2.0146
+cp=atypical angina,"exang=False, fbs=False, hr=high",0.1141,0.6034,2.0115
+"cp=asymptomatic, sex=Male, slope=flat",exang=True,0.1609,0.7363,2.0101
+"no_disease, thal=normal","fbs=False, hr=high",0.1163,0.7754,2.0094
+"cp=atypical angina, hr=high","dp=mild, exang=False",0.1109,0.816,2.0073
+"cp=atypical angina, dp=mild","exang=False, hr=high",0.1109,0.7391,2.0059
+dp=severe,"sex=Male, slope=flat",0.1141,0.6,2.0
+dp=severe,"cp=asymptomatic, exang=True",0.1141,0.6,2.0
+"hr=medium, sex=Male, slope=flat",exang=True,0.113,0.7324,1.9994
+"no_disease, slope=upsloping","exang=False, hr=high",0.1,0.736,1.9974
+"exang=False, sex=Female","fbs=False, no_disease",0.1239,0.7651,1.994
+"exang=False, fbs=False, sex=Female",no_disease,0.1239,0.8906,1.9936
+cp=atypical angina,"fbs=False, no_disease",0.1446,0.7644,1.9921
+"cp=atypical angina, hr=high",no_disease,0.1207,0.888,1.9877
+"cp=asymptomatic, slope=flat",exang=True,0.1913,0.7273,1.9854
+"ca=0.0, thal=normal",no_disease,0.1109,0.887,1.9854
+"cp=atypical angina, fbs=False",no_disease,0.1446,0.8867,1.9848
+"exang=False, thal=normal","dp=mild, hr=high",0.1033,0.6169,1.9844
+"cp=atypical angina, no_disease","dp=mild, exang=False",0.1315,0.8067,1.9843
+"ca=0.0, exang=False","fbs=False, hr=high",0.1109,0.7612,1.9727
+"disease, slope=flat",exang=True,0.113,0.7222,1.9716
+"hr=high, thal=normal","exang=False, no_disease",0.1141,0.7192,1.9692
+"ca=0.0, no_disease","fbs=False, hr=high",0.1098,0.7594,1.968
+"bp=hyper, cp=asymptomatic, sex=Male",exang=True,0.1207,0.7208,1.9677
+dp=severe,"exang=True, sex=Male",0.1196,0.6286,1.967
+"exang=False, slope=upsloping","dp=mild, hr=high",0.1022,0.6104,1.9635
+"ca=0.0, fbs=False, thal=normal",no_disease,0.1,0.8762,1.9613
+"cp=asymptomatic, disease, exang=True",slope=flat,0.1022,0.7344,1.9583
+cp=atypical angina,"dp=mild, exang=False, fbs=False",0.1239,0.6552,1.957
+"fbs=False, slope=upsloping","dp=mild, hr=high",0.1011,0.6078,1.9553
+"bp=hyper, cp=asymptomatic, fbs=False",exang=True,0.1011,0.7154,1.953
+"age=40-50, dp=mild","exang=False, no_disease",0.1076,0.7122,1.9502
+"cp=asymptomatic, dp=moderate",exang=True,0.1087,0.7143,1.95
+"dp=mild, sex=Female",no_disease,0.1174,0.871,1.9496
+"ca=0.0, exang=False","fbs=False, no_disease",0.1087,0.7463,1.9449
+"cp=asymptomatic, hr=medium","exang=True, sex=Male",0.1641,0.6214,1.9445
+cp=atypical angina,"dp=mild, hr=high",0.1141,0.6034,1.9412
+"bp=hyper, cp=asymptomatic","exang=True, sex=Male",0.1207,0.6201,1.9405
+"hr=medium, slope=flat","exang=True, sex=Male",0.113,0.619,1.9372
+"dp=severe, fbs=False",exang=True,0.1,0.7077,1.932
+"cp=asymptomatic, fbs=False, hr=medium",exang=True,0.1337,0.7069,1.9298
+cp=atypical angina,no_disease,0.163,0.8621,1.9297
+"ca=0.0, exang=False, hr=high",no_disease,0.1076,0.8609,1.927
+"fbs=False, unknown","exang=True, sex=Male",0.1022,0.6144,1.9225
+"dp=mild, slope=upsloping","exang=False, hr=high",0.1022,0.7068,1.9181
+"dp=moderate, fbs=False",slope=flat,0.1141,0.7192,1.9178
+"cp=atypical angina, no_disease","exang=False, hr=high",0.1152,0.7067,1.9178
+"cp=atypical angina, hr=high","exang=False, fbs=False",0.1141,0.84,1.9176
+"age=40-50, no_disease","dp=mild, exang=False",0.1076,0.7795,1.9176
+"hr=medium, slope=flat",exang=True,0.1283,0.7024,1.9175
+"bp=hyper, slope=flat",exang=True,0.1,0.7023,1.9172
+"cp=asymptomatic, slope=flat","exang=True, sex=Male",0.1609,0.6116,1.9138
+"dp=severe, sex=Male",exang=True,0.1196,0.7006,1.9127
+"disease, exang=True",slope=flat,0.113,0.7172,1.9126
+"hr=high, thal=normal","fbs=False, no_disease",0.1163,0.7329,1.91
+"ca=0.0, hr=high","exang=False, no_disease",0.1076,0.6972,1.909
+"bp=hyper, cp=asymptomatic",exang=True,0.1359,0.6983,1.9064
+"dp=mild, hr=high","exang=False, no_disease",0.2163,0.6958,1.9052
+"ca=0.0, exang=False",no_disease,0.1239,0.8507,1.9043
+"fbs=False, sex=Female","exang=False, no_disease",0.1239,0.6951,1.9033
+"cp=atypical angina, fbs=False","exang=False, hr=high",0.1141,0.7,1.8997
+"cp=asymptomatic, hr=medium, sex=Male",exang=True,0.1641,0.6959,1.8997
+"dp=mild, thal=normal","exang=False, hr=high",0.1033,0.6985,1.8957
+"exang=False, sex=Female",no_disease,0.137,0.8456,1.8929
+"cp=atypical angina, dp=mild","exang=False, fbs=False",0.1239,0.8261,1.8859
+"cp=asymptomatic, disease, fbs=False",exang=True,0.1043,0.6906,1.8854
+"fbs=False, sex=Male, slope=flat",exang=True,0.1522,0.6897,1.8827
+"exang=False, hr=high, thal=normal",no_disease,0.1141,0.84,1.8803
+"ca=0.0, dp=mild",no_disease,0.1022,0.8393,1.8787
+"age=40-50, no_disease","dp=mild, fbs=False",0.1065,0.7717,1.8731
+"fbs=False, hr=high, thal=normal",no_disease,0.1163,0.8359,1.8712
+"slope=upsloping, thal=normal",hr=high,0.1011,0.9029,1.8709
+"cp=atypical angina, fbs=False","dp=mild, exang=False",0.1239,0.76,1.8695
+"ca=0.0, exang=False, fbs=False",no_disease,0.1087,0.8333,1.8654
+"cp=asymptomatic, hr=medium",exang=True,0.1804,0.6831,1.8649
+"exang=True, fbs=False, hr=medium",slope=flat,0.1087,0.6993,1.8648
+"exang=False, fbs=False","dp=mild, no_disease",0.263,0.6005,1.8601
+"dp=mild, no_disease","exang=False, fbs=False",0.263,0.8148,1.8601
+"ca=0.0, hr=high","fbs=False, no_disease",0.1098,0.7113,1.8537
+"exang=False, thal=normal","fbs=False, hr=high",0.1196,0.7143,1.8511
+"cp=atypical angina, sex=Male",no_disease,0.1011,0.823,1.8423
+"cp=asymptomatic, exang=True, fbs=False",slope=flat,0.1554,0.6908,1.8422
+"cp=atypical angina, no_disease","exang=False, fbs=False",0.1315,0.8067,1.8415
+dp=severe,exang=True,0.1283,0.6743,1.8408
+"hr=high, thal=normal",no_disease,0.1304,0.8219,1.8398
+cp=atypical angina,"dp=mild, exang=False",0.1413,0.7471,1.8379
+"age=40-50, dp=mild","fbs=False, no_disease",0.1065,0.705,1.8375
+"cp=atypical angina, exang=False","dp=mild, fbs=False",0.1239,0.755,1.8326
+"fbs=False, no_disease, thal=normal",hr=high,0.1163,0.8843,1.8323
+"cp=asymptomatic, dp=moderate",slope=flat,0.1043,0.6857,1.8286
+"exang=False, no_disease, thal=normal",hr=high,0.1141,0.8824,1.8283
+"cp=asymptomatic, thal=reversable defect",exang=True,0.1011,0.6691,1.8265
+"chol=high, slope=flat",exang=True,0.1033,0.669,1.8264
+"bp=prehyper, no_disease","dp=mild, exang=False",0.1598,0.7424,1.8263
+"cp=atypical angina, hr=high","dp=mild, fbs=False",0.1022,0.752,1.8254
+cp=atypical angina,"exang=False, hr=high",0.1272,0.6724,1.8248
+"dp=mild, no_disease","exang=False, hr=high",0.2163,0.67,1.8184
+"age=40-50, dp=mild, exang=False",no_disease,0.1076,0.8115,1.8164
+"age=40-50, no_disease","exang=False, fbs=False",0.1098,0.7953,1.8155
+"exang=True, slope=flat","cp=asymptomatic, fbs=False",0.1554,0.6942,1.8143
+"cp=atypical angina, no_disease","dp=mild, fbs=False",0.1217,0.7467,1.8125
+"dp=mild, slope=upsloping","fbs=False, hr=high",0.1011,0.6992,1.8121
+"dp=severe, exang=True","cp=asymptomatic, sex=Male",0.1076,0.839,1.8119
+"dp=mild, thal=normal","fbs=False, hr=high",0.1033,0.6985,1.8103
+"no_disease, sex=Female","exang=False, fbs=False",0.1239,0.7917,1.8073
+"fbs=False, sex=Male, unknown",exang=True,0.1022,0.662,1.8072
+ca=0.0,"fbs=False, hr=high",0.137,0.6961,1.8041
+"cp=atypical angina, exang=False","fbs=False, hr=high",0.1141,0.6954,1.8021
+"no_disease, thal=normal",hr=high,0.1304,0.8696,1.8018
+"hr=high, no_disease","dp=mild, exang=False",0.2163,0.7316,1.7997
+"ca=0.0, exang=False, no_disease",hr=high,0.1076,0.8684,1.7994
+"bp=prehyper, no_disease","exang=False, fbs=False",0.1696,0.7879,1.7986
+"fbs=False, thal=normal","exang=False, hr=high",0.1196,0.6627,1.7983
+"age=40-50, dp=mild, fbs=False",no_disease,0.1065,0.8033,1.7981
+"ca=0.0, hr=high",no_disease,0.1239,0.8028,1.7971
+"bp=prehyper, dp=mild","exang=False, no_disease",0.1598,0.6562,1.7969
+"chol=high, exang=True",slope=flat,0.1033,0.6738,1.7967
+"ca=0.0, dp=mild",hr=high,0.1054,0.8661,1.7946
+"ca=0.0, fbs=False, hr=high",no_disease,0.1098,0.8016,1.7943
+"age=40-50, dp=mild","exang=False, fbs=False",0.1185,0.7842,1.7902
+"age=40-50, exang=False","dp=mild, fbs=False",0.1185,0.7365,1.7878
+"dp=mild, exang=False, slope=upsloping",hr=high,0.1022,0.8624,1.7869
+"ca=0.0, thal=normal",hr=high,0.1076,0.8609,1.7838
+"dp=severe, sex=Male",slope=flat,0.1141,0.6688,1.7834
+"age=40-50, exang=False, no_disease",dp=mild,0.1076,0.9,1.7806
+"exang=False, fbs=False, thal=normal",no_disease,0.1141,0.7955,1.7806
+"age=40-50, exang=False","fbs=False, no_disease",0.1098,0.6824,1.7786
+"cp=asymptomatic, disease, sex=Male",exang=True,0.1239,0.6514,1.7784
+sex=Female,"exang=False, no_disease",0.137,0.6495,1.7784
+"ca=0.0, exang=False",hr=high,0.125,0.8582,1.7783
+"exang=False, thal=normal","fbs=False, no_disease",0.1141,0.6818,1.777
+"ca=0.0, no_disease",hr=high,0.1239,0.8571,1.7761
+"fbs=False, sex=Female",no_disease,0.1413,0.7927,1.7744
+"cp=asymptomatic, disease",exang=True,0.1391,0.6497,1.7738
+"ca=0.0, fbs=False, no_disease",hr=high,0.1098,0.8559,1.7736
+"hr=high, no_disease","exang=False, fbs=False",0.2293,0.7757,1.7709
+dp=moderate,slope=flat,0.1478,0.6634,1.7691
+"dp=mild, fbs=False, hr=high",no_disease,0.2087,0.7901,1.7686
+dp=severe,slope=flat,0.1261,0.6629,1.7676
+"fbs=False, unknown",exang=True,0.1076,0.6471,1.7665
+"age=40-50, exang=False, fbs=False",no_disease,0.1098,0.7891,1.7663
+"cp=atypical angina, dp=mild","fbs=False, hr=high",0.1022,0.6812,1.7653
+"exang=False, no_disease, slope=upsloping",hr=high,0.1,0.8519,1.7651
+"dp=moderate, sex=Male",exang=True,0.1087,0.6452,1.7613
+"ca=0.0, exang=False, fbs=False",hr=high,0.1109,0.85,1.7613
+"cp=atypical angina, exang=False, no_disease",dp=mild,0.1315,0.8897,1.7603
+"dp=mild, exang=False, fbs=False",no_disease,0.263,0.7857,1.7588
+"hr=medium, slope=flat","cp=asymptomatic, fbs=False",0.1228,0.6726,1.758
+"dp=mild, fbs=False, slope=upsloping",hr=high,0.1011,0.8455,1.7518
+"exang=False, fbs=False, slope=upsloping",hr=high,0.1065,0.8448,1.7505
+"dp=mild, hr=high","fbs=False, no_disease",0.2087,0.6713,1.7496
+"exang=False, no_disease","dp=mild, fbs=False",0.263,0.7202,1.7483
+"dp=mild, fbs=False","exang=False, no_disease",0.263,0.6385,1.7483
+"dp=mild, hr=high","exang=False, fbs=False",0.238,0.7657,1.7481
+"dp=mild, exang=False, hr=high",no_disease,0.2163,0.7804,1.7469
+"cp=atypical angina, hr=high, no_disease",dp=mild,0.1065,0.8829,1.7468
+sex=Female,"fbs=False, no_disease",0.1413,0.6701,1.7464
+"exang=True, fbs=False",slope=flat,0.1815,0.6549,1.7464
+"bp=prehyper, dp=mild, exang=False",no_disease,0.1598,0.7778,1.741
+"fbs=False, slope=upsloping","exang=False, hr=high",0.1065,0.6405,1.7383
+"no_disease, thal=normal","exang=False, fbs=False",0.1141,0.7609,1.737
+"bp=prehyper, dp=mild, hr=high",no_disease,0.1239,0.7755,1.7359
+"fbs=False, thal=normal","exang=False, no_disease",0.1141,0.6325,1.7319
+cp=atypical angina,"exang=False, fbs=False",0.1435,0.7586,1.7318
+"cp=asymptomatic, fbs=False, hr=medium",slope=flat,0.1228,0.6494,1.7318
+"hr=high, sex=Female",no_disease,0.1076,0.7734,1.7313
+"sex=Male, slope=flat",exang=True,0.1902,0.6341,1.731
+thal=normal,"exang=False, hr=high",0.1359,0.6378,1.7308
+"dp=mild, sex=Female","exang=False, fbs=False",0.1022,0.7581,1.7306
+"disease, exang=True","cp=asymptomatic, fbs=False",0.1043,0.6621,1.7304
+"exang=False, thal=normal",no_disease,0.1293,0.7727,1.7297
+"bp=prehyper, no_disease","dp=mild, fbs=False",0.1533,0.7121,1.7286
+"cp=atypical angina, no_disease","fbs=False, hr=high",0.1087,0.6667,1.7277
+"bp=prehyper, no_disease","exang=False, hr=high",0.137,0.6364,1.727
+"exang=False, fbs=False, thal=normal",hr=high,0.1196,0.8333,1.7267
+"cp=atypical angina, exang=False, hr=high",dp=mild,0.1109,0.8718,1.7248
+ca=0.0,"exang=False, no_disease",0.1239,0.6298,1.7245
+ca=0.0,"exang=False, hr=high",0.125,0.6354,1.7243
+"dp=moderate, sex=Male",slope=flat,0.1087,0.6452,1.7204
+"hr=high, thal=normal","exang=False, fbs=False",0.1196,0.7534,1.72
+"ca=0.0, fbs=False","exang=False, hr=high",0.1109,0.6335,1.7193
+"exang=True, unknown","cp=asymptomatic, sex=Male",0.1185,0.7956,1.7182
+"chol=high, cp=asymptomatic, sex=Male",exang=True,0.1033,0.6291,1.7175
+"ca=0.0, no_disease","exang=False, fbs=False",0.1087,0.7519,1.7164
+"dp=mild, slope=upsloping",hr=high,0.1196,0.8271,1.7137
+"hr=high, no_disease","dp=mild, fbs=False",0.2087,0.7059,1.7135
+"chol=high, no_disease","exang=False, hr=high",0.1152,0.631,1.7123
+"bp=prehyper, exang=False, fbs=False",no_disease,0.1696,0.7647,1.7118
+"dp=mild, exang=False, thal=normal",hr=high,0.1033,0.8261,1.7117
+"exang=False, fbs=False, hr=high",no_disease,0.2293,0.7645,1.7113
+"chol=high, dp=mild, exang=False",no_disease,0.1196,0.7639,1.7099
+"bp=prehyper, exang=False, hr=high",no_disease,0.137,0.7636,1.7094
+"cp=atypical angina, exang=False, fbs=False",dp=mild,0.1239,0.8636,1.7087
+"fbs=False, slope=flat",exang=True,0.1815,0.6255,1.7075
+"no_disease, slope=upsloping",hr=high,0.112,0.824,1.7074
+"age=40-50, dp=mild",no_disease,0.1152,0.7626,1.707
+"age=50-60, slope=flat",exang=True,0.1033,0.625,1.7062
+"cp=atypical angina, exang=False",dp=mild,0.1413,0.8609,1.7033
+"cp=asymptomatic, exang=True, hr=medium",slope=flat,0.1152,0.6386,1.7028
+"ca=0.0, fbs=False","exang=False, no_disease",0.1087,0.6211,1.7007
+"cp=asymptomatic, exang=True",slope=flat,0.1913,0.6377,1.7005
+ca=0.0,"fbs=False, no_disease",0.1283,0.6519,1.6991
+"exang=True, hr=medium","cp=asymptomatic, sex=Male",0.1641,0.7865,1.6985
+"disease, exang=True","cp=asymptomatic, sex=Male",0.1239,0.7862,1.6979
+"dp=mild, fbs=False, thal=normal",hr=high,0.1033,0.819,1.697
+"cp=atypical angina, dp=mild, hr=high",exang=False,0.1109,0.9714,1.6926
+thal=normal,"fbs=False, hr=high",0.1391,0.6531,1.6924
+"no_disease, sex=Female","dp=mild, exang=False",0.1076,0.6875,1.6912
+"hr=high, slope=upsloping","exang=False, no_disease",0.1,0.6174,1.6906
+"fbs=False, hr=medium, sex=Male",exang=True,0.1413,0.619,1.69
+"exang=True, fbs=False, sex=Male",slope=flat,0.1522,0.6335,1.6893
+"age=50-60, exang=True",slope=flat,0.1033,0.6333,1.6889
+"bp=prehyper, dp=mild, fbs=False",no_disease,0.1533,0.754,1.6878
+"disease, hr=medium","cp=asymptomatic, sex=Male",0.1087,0.7812,1.6872
+"cp=non-anginal, exang=False",no_disease,0.1196,0.7534,1.6865
+"fbs=False, no_disease","dp=mild, exang=False",0.263,0.6856,1.6864
+"dp=mild, exang=False","fbs=False, no_disease",0.263,0.6471,1.6864
+"age=40-50, exang=False, fbs=False",dp=mild,0.1185,0.8516,1.6848
+"bp=prehyper, hr=high","exang=False, no_disease",0.137,0.6146,1.6829
+"exang=False, thal=normal",hr=high,0.1359,0.8117,1.6819
+"disease, exang=True, slope=flat",cp=asymptomatic,0.1022,0.9038,1.6765
+"cp=atypical angina, fbs=False, hr=high",dp=mild,0.1022,0.8468,1.6755
+"dp=mild, no_disease","fbs=False, hr=high",0.2087,0.6465,1.6753
+"cp=atypical angina, no_disease",dp=mild,0.138,0.8467,1.6751
+"dp=mild, hr=high",no_disease,0.2326,0.7483,1.6749
+"exang=True, hr=medium","cp=asymptomatic, fbs=False",0.1337,0.6406,1.6744
+cp=atypical angina,"dp=mild, fbs=False",0.1304,0.6897,1.6741
+"cp=asymptomatic, sex=Male, unknown",exang=True,0.1185,0.6124,1.6717
+"dp=severe, exang=True, sex=Male",cp=asymptomatic,0.1076,0.9,1.6694
+"cp=asymptomatic, fbs=False, sex=Male",exang=True,0.1967,0.6115,1.6693
+"exang=False, slope=upsloping",hr=high,0.1348,0.8052,1.6684
+"exang=True, hr=medium, slope=flat",cp=asymptomatic,0.1152,0.8983,1.6662
+"cp=atypical angina, fbs=False, no_disease",dp=mild,0.1217,0.8421,1.6661
+"cp=asymptomatic, unknown",exang=True,0.1293,0.6103,1.666
+"chol=high, dp=mild","exang=False, no_disease",0.1196,0.6077,1.664
+"cp=atypical angina, hr=high, no_disease",exang=False,0.1152,0.955,1.6639
+"age=40-50, exang=False",no_disease,0.1196,0.7432,1.6637
+thal=normal,"exang=False, no_disease",0.1293,0.6071,1.6624
+"cp=atypical angina, hr=high",dp=mild,0.1141,0.84,1.6619
+"dp=mild, thal=normal","exang=False, fbs=False",0.1076,0.7279,1.6618
+sex=Female,no_disease,0.1565,0.7423,1.6615
+"ca=0.0, sex=Male",hr=high,0.1011,0.8017,1.6612
+"exang=False, hr=high, slope=upsloping",no_disease,0.1,0.7419,1.6608
+"cp=atypical angina, dp=mild, no_disease",exang=False,0.1315,0.9528,1.6601
+"chol=high, exang=False, hr=high",no_disease,0.1152,0.7413,1.6593
+"chol=high, cp=asymptomatic",exang=True,0.1261,0.6073,1.658
+slope=upsloping,"exang=False, hr=high",0.1348,0.6108,1.6577
+"age=40-50, fbs=False, no_disease",dp=mild,0.1065,0.8376,1.6572
+"cp=atypical angina, dp=mild, fbs=False",exang=False,0.1239,0.95,1.6553
+cp=atypical angina,"fbs=False, hr=high",0.1207,0.6379,1.6532
+"bp=prehyper, exang=False, no_disease",dp=mild,0.1598,0.8352,1.6525
+"disease, exang=True, sex=Male",cp=asymptomatic,0.1239,0.8906,1.652
+"bp=prehyper, fbs=False, hr=high",no_disease,0.1315,0.7378,1.6515
+"age=40-50, no_disease",dp=mild,0.1152,0.8346,1.6513
+"exang=False, fbs=False, no_disease",dp=mild,0.263,0.8345,1.651
+"dp=severe, exang=True",cp=asymptomatic,0.1141,0.8898,1.6505
+"chol=high, dp=mild","exang=False, hr=high",0.1196,0.6077,1.6493
+"exang=False, slope=upsloping","fbs=False, hr=high",0.1065,0.6364,1.6492
+"chol=high, dp=mild, hr=high",no_disease,0.1033,0.7364,1.6485
+"cp=atypical angina, exang=False, fbs=False",hr=high,0.1141,0.7955,1.6482
+"cp=atypical angina, fbs=False, hr=high",exang=False,0.1141,0.9459,1.6482
+"bp=hyper, exang=True",slope=flat,0.1,0.6174,1.6465
+"bp=prehyper, hr=high, no_disease",dp=mild,0.1239,0.8321,1.6463
+"dp=mild, thal=normal",no_disease,0.1087,0.7353,1.6459
+ca=0.0,no_disease,0.1446,0.7348,1.6448
+"cp=atypical angina, dp=mild",exang=False,0.1413,0.942,1.6414
+"hr=high, sex=Female","exang=False, fbs=False",0.1,0.7188,1.6408
+"bp=prehyper, dp=mild","exang=False, fbs=False",0.175,0.7187,1.6408
+"ca=0.0, fbs=False",no_disease,0.1283,0.7329,1.6406
+"bp=prehyper, dp=mild","fbs=False, no_disease",0.1533,0.6295,1.6405
+"ca=0.0, hr=high","exang=False, fbs=False",0.1109,0.7183,1.6398
+"exang=True, hr=medium",slope=flat,0.1283,0.6146,1.6389
+"disease, exang=True",cp=asymptomatic,0.1391,0.8828,1.6374
+"chol=high, exang=False","fbs=False, hr=high",0.1359,0.6313,1.6361
+"disease, exang=True, fbs=False",cp=asymptomatic,0.1043,0.8807,1.6336
+"cp=asymptomatic, exang=True, sex=Male",hr=medium,0.1641,0.6214,1.6334
+"fbs=False, thal=normal",no_disease,0.1315,0.7289,1.6316
+"bp=prehyper, dp=mild, no_disease",exang=False,0.1598,0.9363,1.6314
+"bp=hyper, exang=True","cp=asymptomatic, fbs=False",0.1011,0.6242,1.6313
+"age=40-50, exang=False",dp=mild,0.1326,0.8243,1.6309
+"cp=atypical angina, hr=high",exang=False,0.1272,0.936,1.6309
+"chol=high, no_disease","exang=False, fbs=False",0.1304,0.7143,1.6306
+"dp=mild, thal=normal",hr=high,0.1163,0.7868,1.6302
+exang=True,slope=flat,0.2239,0.6113,1.6301
+"chol=borderline, exang=False",no_disease,0.1076,0.7279,1.6295
+"exang=False, no_disease","fbs=False, hr=high",0.2293,0.628,1.6274
+"age=40-50, dp=mild, no_disease",exang=False,0.1076,0.934,1.6274
+"cp=atypical angina, dp=mild, exang=False",hr=high,0.1109,0.7846,1.6258
+ca=0.0,hr=high,0.1543,0.7845,1.6256
+"cp=asymptomatic, exang=True, sex=Male",slope=flat,0.1609,0.6091,1.6241
+"cp=atypical angina, dp=mild, fbs=False",hr=high,0.1022,0.7833,1.6231
+"exang=False, hr=high","fbs=False, no_disease",0.2293,0.6224,1.6222
+"dp=mild, exang=False",no_disease,0.2946,0.7246,1.622
+no_disease,"dp=mild, exang=False",0.2946,0.6594,1.622
+"ca=0.0, fbs=False",hr=high,0.137,0.7826,1.6216
+"exang=False, no_disease, sex=Male",dp=mild,0.187,0.819,1.6205
+"chol=high, hr=high, no_disease",dp=mild,0.1033,0.819,1.6203
+"dp=mild, hr=high, no_disease",exang=False,0.2163,0.9299,1.6203
+"exang=False, hr=high, no_disease",dp=mild,0.2163,0.8189,1.6202
+"chol=high, dp=mild, fbs=False",no_disease,0.1196,0.7237,1.6199
+"exang=True, hr=medium, sex=Male",cp=asymptomatic,0.1641,0.8728,1.619
+"no_disease, sex=Female","dp=mild, fbs=False",0.1043,0.6667,1.6183
+"cp=atypical angina, exang=False, no_disease",hr=high,0.1152,0.7794,1.615
+"cp=asymptomatic, fbs=False, slope=flat",hr=medium,0.1228,0.6141,1.6143
+"bp=prehyper, exang=False","fbs=False, no_disease",0.1696,0.619,1.6134
+"age=50-60, exang=True",hr=medium,0.1,0.6133,1.6122
+"fbs=False, slope=upsloping",hr=high,0.1293,0.7778,1.6116
+"exang=True, unknown",cp=asymptomatic,0.1293,0.8686,1.6111
+no_disease,"exang=False, fbs=False",0.3152,0.7056,1.6108
+"exang=False, fbs=False",no_disease,0.3152,0.7196,1.6108
+"chol=high, no_disease","dp=mild, exang=False",0.1196,0.6548,1.6106
+"exang=True, sex=Male","cp=asymptomatic, fbs=False",0.1967,0.6156,1.6091
+thal=normal,"fbs=False, no_disease",0.1315,0.6173,1.6089
+"bp=hyper, exang=True","cp=asymptomatic, sex=Male",0.1207,0.745,1.6088
+"chol=high, exang=False, fbs=False",no_disease,0.1304,0.7186,1.6085
+"cp=atypical angina, exang=False",hr=high,0.1272,0.7748,1.6055
+exang=True,"cp=asymptomatic, fbs=False",0.225,0.6142,1.6054
+"exang=False, hr=high",no_disease,0.2641,0.7168,1.6045
+"exang=True, hr=medium",cp=asymptomatic,0.1804,0.8646,1.6037
+"exang=True, hr=medium, sex=Male",slope=flat,0.113,0.6012,1.6031
+"fbs=False, hr=high, no_disease",dp=mild,0.2087,0.8101,1.6028
+"bp=prehyper, hr=high, no_disease",exang=False,0.137,0.9197,1.6025
+"hr=high, thal=normal","dp=mild, exang=False",0.1033,0.6507,1.6006
+"exang=False, sex=Female","fbs=False, hr=high",0.1,0.6174,1.6002
+"cp=atypical angina, dp=mild, no_disease",hr=high,0.1065,0.7717,1.5989
+"fbs=False, thal=normal",hr=high,0.1391,0.7711,1.5977
+"dp=mild, no_disease, sex=Female",exang=False,0.1076,0.9167,1.5972
+"exang=True, thal=reversable defect",cp=asymptomatic,0.1011,0.8611,1.5972
+"dp=mild, fbs=False, no_disease",exang=False,0.263,0.9167,1.5972
+"exang=False, no_disease",dp=mild,0.2946,0.8065,1.5958
+"bp=prehyper, no_disease, sex=Male",dp=mild,0.1087,0.8065,1.5956
+"cp=asymptomatic, sex=Male, slope=flat",hr=medium,0.1326,0.607,1.5955
+"exang=True, fbs=False, hr=medium",cp=asymptomatic,0.1337,0.8601,1.5954
+"hr=medium, sex=Male, slope=flat",cp=asymptomatic,0.1326,0.8592,1.5936
+"chol=high, hr=high, no_disease",exang=False,0.1152,0.9138,1.5922
+"exang=True, sex=Male, unknown",cp=asymptomatic,0.1185,0.8583,1.5919
+"chol=high, exang=False, no_disease",hr=high,0.1152,0.7681,1.5916
+"dp=mild, no_disease",exang=False,0.2946,0.9125,1.5899
+"chol=high, no_disease","dp=mild, fbs=False",0.1196,0.6548,1.5894
+"chol=high, dp=mild","fbs=False, hr=high",0.1207,0.6133,1.5893
+"chol=high, no_disease","fbs=False, hr=high",0.112,0.6131,1.5889
+"exang=True, fbs=False, slope=flat",cp=asymptomatic,0.1554,0.8563,1.5883
+"dp=mild, no_disease, sex=Male",exang=False,0.187,0.9101,1.5857
+"disease, hr=medium, sex=Male",cp=asymptomatic,0.1087,0.8547,1.5853
+"cp=atypical angina, fbs=False, no_disease",exang=False,0.1315,0.9098,1.5852
+"bp=prehyper, fbs=False, no_disease",dp=mild,0.1533,0.8011,1.585
+"exang=True, slope=flat",cp=asymptomatic,0.1913,0.8544,1.5847
+"no_disease, sex=Male","dp=mild, exang=False",0.187,0.6442,1.5847
+"chol=high, dp=mild","fbs=False, no_disease",0.1196,0.6077,1.5839
+"bp=hyper, exang=True, sex=Male",cp=asymptomatic,0.1207,0.8538,1.5837
+"bp=prehyper, no_disease","fbs=False, hr=high",0.1315,0.6111,1.5837
+"cp=asymptomatic, exang=True, slope=flat",hr=medium,0.1152,0.6023,1.5831
+"chol=high, dp=mild, exang=False",hr=high,0.1196,0.7639,1.5828
+"cp=atypical angina, fbs=False",dp=mild,0.1304,0.8,1.5828
+"cp=asymptomatic, exang=True",hr=medium,0.1804,0.6014,1.581
+"cp=atypical angina, no_disease",exang=False,0.1478,0.9067,1.5798
+"chol=high, exang=False","fbs=False, no_disease",0.1304,0.6061,1.5795
+"hr=high, thal=normal","dp=mild, fbs=False",0.1033,0.6507,1.5795
+"chol=high, exang=False, no_disease",dp=mild,0.1196,0.7971,1.5771
+"cp=atypical angina, dp=mild",hr=high,0.1141,0.7609,1.5766
+thal=normal,no_disease,0.15,0.7041,1.576
+"fbs=False, hr=medium, slope=flat",cp=asymptomatic,0.1228,0.8496,1.5759
+unknown,"cp=asymptomatic, sex=Male",0.1935,0.7295,1.5755
+"bp=prehyper, hr=high","dp=mild, exang=False",0.1424,0.639,1.5719
+"bp=prehyper, exang=False, hr=high",dp=mild,0.1424,0.7939,1.5708
+"dp=mild, fbs=False, hr=high",exang=False,0.238,0.9012,1.5703
+"exang=False, fbs=False, hr=high",dp=mild,0.238,0.7935,1.5699
+"exang=False, slope=upsloping",no_disease,0.1174,0.7013,1.5698
+cp=atypical angina,dp=mild,0.15,0.7931,1.5692
+"bp=prehyper, dp=mild",no_disease,0.1707,0.7009,1.5689
+"bp=prehyper, no_disease",dp=mild,0.1707,0.7929,1.5688
+"exang=True, sex=Male, slope=flat",cp=asymptomatic,0.1609,0.8457,1.5687
+"hr=medium, slope=flat","cp=asymptomatic, sex=Male",0.1326,0.7262,1.5683
+"exang=False, hr=high","dp=mild, fbs=False",0.238,0.646,1.5682
+"hr=medium, slope=flat",cp=asymptomatic,0.1543,0.8452,1.5678
+"disease, hr=medium",cp=asymptomatic,0.1174,0.8438,1.565
+"chol=high, dp=mild","exang=False, fbs=False",0.1348,0.6851,1.564
+"bp=prehyper, exang=False",no_disease,0.1913,0.6984,1.5634
+"chol=high, dp=mild, no_disease",hr=high,0.1033,0.754,1.5623
+"bp=prehyper, exang=False, fbs=False",dp=mild,0.175,0.7892,1.5615
+"exang=False, thal=normal","dp=mild, fbs=False",0.1076,0.6429,1.5605
+"chol=high, exang=False",no_disease,0.15,0.697,1.5601
+"bp=prehyper, no_disease, sex=Male",exang=False,0.1207,0.8952,1.5598
+"chol=high, exang=True, sex=Male",cp=asymptomatic,0.1033,0.8407,1.5594
+"dp=mild, fbs=False",no_disease,0.287,0.6966,1.5592
+no_disease,"dp=mild, fbs=False",0.287,0.6423,1.5592
+"chol=high, dp=mild",no_disease,0.137,0.6961,1.5583
+"cp=atypical angina, fbs=False, no_disease",hr=high,0.1087,0.7519,1.5579
+exang=True,"cp=asymptomatic, sex=Male",0.2641,0.7211,1.5572
+"age=40-50, dp=mild, fbs=False",exang=False,0.1185,0.8934,1.5568
+"hr=high, no_disease",exang=False,0.2641,0.8934,1.5567
+"hr=high, no_disease",dp=mild,0.2326,0.7868,1.5566
+"hr=high, no_disease, slope=upsloping",exang=False,0.1,0.8932,1.5563
+"slope=upsloping, thal=normal",exang=False,0.1,0.8932,1.5563
+"bp=hyper, exang=True",cp=asymptomatic,0.1359,0.8389,1.5561
+"age=50-60, dp=mild, no_disease",exang=False,0.1087,0.8929,1.5557
+"exang=False, no_disease, sex=Female",dp=mild,0.1076,0.7857,1.5545
+"dp=mild, hr=high",exang=False,0.2772,0.8916,1.5536
+"bp=prehyper, dp=mild, hr=high",exang=False,0.1424,0.8912,1.5528
+"fbs=False, unknown","cp=asymptomatic, sex=Male",0.1196,0.719,1.5527
+"hr=high, slope=upsloping","dp=mild, exang=False",0.1022,0.6309,1.5519
+"exang=True, slope=flat","cp=asymptomatic, sex=Male",0.1609,0.7184,1.5516
+"fbs=False, hr=high, no_disease",exang=False,0.2293,0.8903,1.5513
+"hr=high, no_disease, sex=Male",exang=False,0.1674,0.8902,1.5511
+"chol=high, exang=False, fbs=False",hr=high,0.1359,0.7485,1.551
+"bp=prehyper, exang=False","dp=mild, fbs=False",0.175,0.6389,1.5509
+"age=50-60, exang=True, sex=Male",cp=asymptomatic,0.1163,0.8359,1.5505
+"bp=prehyper, no_disease",exang=False,0.1913,0.8889,1.5488
+"hr=medium, unknown",cp=asymptomatic,0.1043,0.8348,1.5484
+"hr=high, slope=upsloping",no_disease,0.112,0.6913,1.5474
+"dp=mild, hr=high, thal=normal",exang=False,0.1033,0.8879,1.547
+"age=50-60, exang=False, fbs=False",no_disease,0.1141,0.6908,1.5463
+"fbs=False, hr=high, slope=upsloping",dp=mild,0.1011,0.7815,1.5462
+"dp=mild, sex=Female",exang=False,0.1196,0.8871,1.5457
+"dp=mild, fbs=False, sex=Female",exang=False,0.1022,0.8868,1.5452
+"bp=prehyper, fbs=False, no_disease",exang=False,0.1696,0.8864,1.5444
+"hr=high, no_disease, sex=Male",dp=mild,0.1467,0.7803,1.5439
+thal=normal,hr=high,0.1587,0.7449,1.5435
+"age=50-60, exang=True","cp=asymptomatic, sex=Male",0.1163,0.7133,1.5405
+"bp=hyper, exang=True, fbs=False",cp=asymptomatic,0.1011,0.8304,1.5402
+"exang=False, fbs=False, sex=Male",dp=mild,0.2326,0.7782,1.5396
+"dp=mild, hr=high, sex=Male",exang=False,0.1891,0.8832,1.539
+thal=normal,"exang=False, fbs=False",0.1435,0.6735,1.5374
+"bp=prehyper, hr=high","exang=False, fbs=False",0.15,0.6732,1.5368
+"dp=mild, hr=high, sex=Male",no_disease,0.1467,0.6853,1.534
+"cp=atypical angina, no_disease",hr=high,0.1207,0.74,1.5333
+"cp=atypical angina, fbs=False",hr=high,0.1207,0.74,1.5333
+"cp=atypical angina, fbs=False",exang=False,0.1435,0.88,1.5333
+"exang=True, sex=Male",cp=asymptomatic,0.2641,0.8265,1.5331
+"dp=moderate, exang=True",cp=asymptomatic,0.1087,0.8264,1.5329
+"exang=True, fbs=False","cp=asymptomatic, sex=Male",0.1967,0.7098,1.5329
+"exang=False, sex=Female","dp=mild, fbs=False",0.1022,0.6309,1.5314
+"age=40-50, dp=mild",exang=False,0.1326,0.8777,1.5293
+"fbs=False, no_disease, sex=Female",exang=False,0.1239,0.8769,1.528
+"no_disease, sex=Male","dp=mild, fbs=False",0.1826,0.6292,1.5274
+"age=40-50, hr=high",dp=mild,0.1065,0.7717,1.5267
+"chol=high, exang=True",cp=asymptomatic,0.1261,0.8227,1.526
+"chol=high, exang=False, sex=Male",hr=high,0.1033,0.7364,1.5259
+"hr=high, no_disease, thal=normal",exang=False,0.1141,0.875,1.5246
+"no_disease, sex=Female",exang=False,0.137,0.875,1.5246
+"chol=high, exang=False, hr=high",dp=mild,0.1196,0.7692,1.5219
+"age=50-60, exang=False, no_disease",dp=mild,0.1087,0.7692,1.5219
+"chol=high, fbs=False, no_disease",dp=mild,0.1196,0.7692,1.5219
+"dp=mild, exang=False, no_disease",hr=high,0.2163,0.7343,1.5216
+"fbs=False, slope=upsloping",no_disease,0.113,0.6797,1.5216
+"chol=high, dp=mild, no_disease",exang=False,0.1196,0.873,1.5212
+"age=50-60, exang=True",cp=asymptomatic,0.1337,0.82,1.521
+slope=upsloping,hr=high,0.162,0.734,1.5209
+"chol=high, exang=False","dp=mild, fbs=False",0.1348,0.6263,1.5202
+"exang=False, no_disease, sex=Male",hr=high,0.1674,0.7333,1.5195
+"exang=True, fbs=False, sex=Male",cp=asymptomatic,0.1967,0.819,1.5191
+exang=True,cp=asymptomatic,0.3,0.819,1.5191
+"age=50-60, no_disease","dp=mild, exang=False",0.1087,0.6173,1.5185
+"fbs=False, hr=high","dp=mild, exang=False",0.238,0.6169,1.5175
+"bp=prehyper, exang=True, sex=Male",cp=asymptomatic,0.1022,0.8174,1.5161
+"hr=high, slope=upsloping","dp=mild, fbs=False",0.1011,0.6242,1.5151
+"bp=prehyper, exang=True",cp=asymptomatic,0.1207,0.8162,1.5139
+ca=0.0,"exang=False, fbs=False",0.1304,0.663,1.5135
+"ca=0.0, hr=high, no_disease",exang=False,0.1076,0.8684,1.5132
+"chol=high, dp=mild, fbs=False",hr=high,0.1207,0.7303,1.5132
+"age=50-60, dp=mild, exang=False",no_disease,0.1087,0.6757,1.5125
+cp=atypical angina,exang=False,0.1641,0.8678,1.5121
+dp=mild,"exang=False, fbs=False",0.3348,0.6624,1.5121
+"exang=False, fbs=False",dp=mild,0.3348,0.7643,1.5121
+"fbs=False, no_disease, thal=normal",exang=False,0.1141,0.8678,1.512
+"cp=non-anginal, fbs=False",no_disease,0.1152,0.6752,1.5113
+"age=50-60, exang=False, fbs=False",dp=mild,0.1261,0.7632,1.5099
+"age=40-50, no_disease",exang=False,0.1196,0.8661,1.5092
+"exang=False, fbs=False, no_disease",hr=high,0.2293,0.7276,1.5076
+"dp=mild, fbs=False, no_disease",hr=high,0.2087,0.7273,1.507
+sex=Female,"exang=False, fbs=False",0.1391,0.6598,1.5062
+"exang=True, fbs=False",cp=asymptomatic,0.225,0.8118,1.5057
+"no_disease, slope=upsloping",exang=False,0.1174,0.864,1.5055
+"slope=flat, unknown",cp=asymptomatic,0.1076,0.8115,1.5052
+"no_disease, sex=Male","exang=False, fbs=False",0.1913,0.6592,1.5048
+"bp=prehyper, dp=mild, no_disease",hr=high,0.1239,0.7261,1.5046
+"age=40-50, fbs=False, no_disease",exang=False,0.1098,0.8632,1.5041
+"exang=False, hr=high, thal=normal",dp=mild,0.1033,0.76,1.5037
+"no_disease, thal=normal",exang=False,0.1293,0.8623,1.5025
+"cp=non-anginal, hr=high",exang=False,0.1087,0.8621,1.5021
+"hr=high, slope=upsloping","exang=False, fbs=False",0.1065,0.6577,1.5015
+"age=50-60, dp=mild, hr=high",exang=False,0.1011,0.8611,1.5004
+"bp=prehyper, dp=mild, fbs=False",exang=False,0.175,0.861,1.5002
+"exang=False, hr=high, slope=upsloping",dp=mild,0.1022,0.7581,1.4998
+"exang=False, no_disease",hr=high,0.2641,0.7232,1.4986
+"chol=borderline, exang=False",dp=mild,0.112,0.7574,1.4984
+"fbs=False, hr=high, thal=normal",exang=False,0.1196,0.8594,1.4974
+"chol=high, exang=False",hr=high,0.1554,0.7222,1.4965
+"bp=prehyper, hr=high",no_disease,0.1489,0.6683,1.4959
+"cp=atypical angina, sex=Male",exang=False,0.1054,0.8584,1.4957
+"fbs=False, hr=high",no_disease,0.2576,0.6676,1.4944
+"ca=0.0, no_disease",exang=False,0.1239,0.8571,1.4935
+"dp=mild, no_disease",hr=high,0.2326,0.7205,1.493
+"bp=prehyper, exang=True","cp=asymptomatic, sex=Male",0.1022,0.6912,1.4927
+"chol=high, fbs=False, no_disease",hr=high,0.112,0.7203,1.4925
+"age=50-60, dp=mild, fbs=False",no_disease,0.1043,0.6667,1.4923
+"hr=high, thal=normal",exang=False,0.1359,0.8562,1.4918
+"fbs=False, no_disease, sex=Male",dp=mild,0.1826,0.7534,1.4905
+"sex=Male, slope=upsloping",hr=high,0.1141,0.7192,1.4902
+"exang=False, fbs=False, sex=Female",hr=high,0.1,0.7188,1.4893
+"dp=mild, hr=high, slope=upsloping",exang=False,0.1022,0.8545,1.489
+cp=atypical angina,hr=high,0.1359,0.7184,1.4886
+"exang=False, hr=high",dp=mild,0.2772,0.7522,1.4882
+"dp=mild, fbs=False, thal=normal",exang=False,0.1076,0.8534,1.4871
+"chol=high, dp=mild, hr=high",exang=False,0.1196,0.8527,1.4858
+"cp=non-anginal, dp=mild",exang=False,0.113,0.8525,1.4853
+"ca=0.0, thal=normal",exang=False,0.1065,0.8522,1.4848
+"disease, slope=flat","cp=asymptomatic, sex=Male",0.1076,0.6875,1.4847
+"bp=prehyper, exang=False",dp=mild,0.2054,0.75,1.4839
+"exang=False, fbs=False, thal=normal",dp=mild,0.1076,0.75,1.4839
+"no_disease, sex=Female",dp=mild,0.1174,0.75,1.4839
+"chol=high, no_disease",dp=mild,0.137,0.75,1.4839
+"bp=prehyper, exang=False, no_disease",hr=high,0.137,0.7159,1.4834
+"age=50-60, dp=mild","exang=False, sex=Male",0.1228,0.6108,1.4827
+unknown,cp=asymptomatic,0.212,0.7992,1.4824
+"disease, sex=Male, slope=flat",cp=asymptomatic,0.1076,0.7984,1.4809
+"dp=mild, no_disease, sex=Male",hr=high,0.1467,0.7143,1.4801
+"fbs=False, no_disease",dp=mild,0.287,0.7479,1.4797
+"age=50-60, no_disease","exang=False, fbs=False",0.1141,0.6481,1.4796
+"ca=0.0, dp=mild",exang=False,0.1033,0.8482,1.4779
+"exang=False, thal=normal",dp=mild,0.125,0.7468,1.4774
+"dp=mild, hr=high","exang=False, sex=Male",0.1891,0.6084,1.4768
+"chol=high, dp=mild",hr=high,0.1402,0.7127,1.4768
+"ca=0.0, fbs=False, no_disease",exang=False,0.1087,0.8475,1.4766
+"sex=Male, unknown",cp=asymptomatic,0.1935,0.7946,1.4739
+"dp=mild, thal=normal",exang=False,0.125,0.8456,1.4734
+"dp=mild, exang=False, fbs=False",hr=high,0.238,0.711,1.4733
+"exang=False, hr=high, sex=Male",no_disease,0.1674,0.6581,1.4732
+"chol=high, exang=False, sex=Male",dp=mild,0.1043,0.7442,1.4724
+"bp=prehyper, fbs=False, hr=high",dp=mild,0.1326,0.7439,1.4718
+"chol=normal, hr=medium","cp=asymptomatic, sex=Male",0.1,0.6815,1.4717
+"exang=False, hr=high, sex=Male",dp=mild,0.1891,0.7436,1.4712
+"chol=borderline, dp=mild",exang=False,0.112,0.8443,1.4711
+"bp=prehyper, dp=mild",exang=False,0.2054,0.8438,1.4702
+"chol=high, exang=False, fbs=False",dp=mild,0.1348,0.7425,1.4691
+dp=severe,"cp=asymptomatic, sex=Male",0.1293,0.68,1.4685
+"disease, slope=flat",cp=asymptomatic,0.1239,0.7917,1.4684
+"fbs=False, hr=high, thal=normal",dp=mild,0.1033,0.7422,1.4684
+"bp=prehyper, fbs=False, hr=high",exang=False,0.15,0.8415,1.4662
+"cp=non-anginal, no_disease",exang=False,0.1196,0.8397,1.4631
+"chol=high, fbs=False, no_disease",exang=False,0.1304,0.8392,1.4622
+"fbs=False, no_disease, sex=Female",dp=mild,0.1043,0.7385,1.461
+"age=40-50, dp=mild",hr=high,0.1065,0.705,1.4609
+"hr=high, slope=upsloping",dp=mild,0.1196,0.7383,1.4606
+"exang=False, sex=Female",dp=mild,0.1196,0.7383,1.4606
+"age=50-60, exang=False, hr=high",dp=mild,0.1011,0.7381,1.4603
+"exang=False, sex=Female",hr=high,0.1141,0.7047,1.4602
+"bp=prehyper, exang=False, sex=Male",dp=mild,0.1435,0.7374,1.459
+"dp=mild, exang=False, sex=Male",no_disease,0.187,0.6515,1.4584
+"chol=high, hr=high","exang=False, fbs=False",0.1359,0.6378,1.4559
+"chol=high, exang=True","cp=asymptomatic, sex=Male",0.1033,0.6738,1.4551
+"fbs=False, unknown",cp=asymptomatic,0.1304,0.7843,1.4548
+"exang=False, fbs=False, sex=Female",dp=mild,0.1022,0.7344,1.453
+"hr=high, slope=upsloping",exang=False,0.1348,0.8322,1.4501
+"hr=high, thal=normal",dp=mild,0.1163,0.7329,1.45
+"age=50-60, exang=False, sex=Male",dp=mild,0.1228,0.729,1.4424
+"age=40-50, exang=False",hr=high,0.112,0.6959,1.4421
+"age=40-50, fbs=False",no_disease,0.1272,0.6429,1.439
+"chol=high, exang=False",dp=mild,0.1565,0.7273,1.4389
+"age=50-60, fbs=False, no_disease",dp=mild,0.1043,0.7273,1.4389
+"bp=prehyper, dp=mild, sex=Male",exang=False,0.1435,0.825,1.4375
+cp=non-anginal,no_disease,0.1424,0.6422,1.4374
+"fbs=False, sex=Male, unknown",cp=asymptomatic,0.1196,0.7746,1.4368
+"chol=normal, hr=high",exang=False,0.1022,0.8246,1.4367
+"bp=prehyper, dp=mild, exang=False",hr=high,0.1424,0.6931,1.4362
+"fbs=False, hr=high, slope=upsloping",exang=False,0.1065,0.8235,1.4349
+"bp=prehyper, no_disease",hr=high,0.1489,0.6919,1.4337
+"no_disease, thal=normal",dp=mild,0.1087,0.7246,1.4337
+"dp=mild, sex=Male","exang=False, fbs=False",0.2326,0.6276,1.4327
+"exang=False, fbs=False, sex=Male",no_disease,0.1913,0.64,1.4326
+"fbs=False, no_disease",exang=False,0.3152,0.8215,1.4315
+"age=50-60, dp=mild","exang=False, fbs=False",0.1261,0.627,1.4314
+"fbs=False, hr=high, sex=Female",exang=False,0.1,0.8214,1.4313
+"chol=high, no_disease",exang=False,0.15,0.8214,1.4313
+"chol=high, no_disease",hr=high,0.1261,0.6905,1.4307
+no_disease,dp=mild,0.3228,0.7226,1.4297
+dp=mild,no_disease,0.3228,0.6387,1.4297
+"hr=high, sex=Female",exang=False,0.1141,0.8203,1.4293
+"age=50-60, exang=False",dp=mild,0.1609,0.722,1.4284
+"disease, fbs=False","cp=asymptomatic, sex=Male",0.1337,0.6613,1.4281
+"dp=mild, slope=upsloping",exang=False,0.1185,0.8195,1.428
+"dp=severe, fbs=False",cp=asymptomatic,0.1087,0.7692,1.4268
+disease,"cp=asymptomatic, sex=Male",0.1902,0.6604,1.4262
+"no_disease, sex=Female",hr=high,0.1076,0.6875,1.4245
+"bp=prehyper, fbs=False, no_disease",hr=high,0.1315,0.6875,1.4245
+exang=False,no_disease,0.3652,0.6364,1.4245
+no_disease,exang=False,0.3652,0.8175,1.4245
+"fbs=False, slope=upsloping",dp=mild,0.1196,0.719,1.4224
+"chol=high, dp=mild, fbs=False",exang=False,0.1348,0.8158,1.4215
+"bp=hyper, no_disease",exang=False,0.1054,0.8151,1.4203
+"age=50-60, exang=False",no_disease,0.1413,0.6341,1.4195
+"cp=non-anginal, exang=False",hr=high,0.1087,0.6849,1.4192
+"exang=False, fbs=False",hr=high,0.3,0.6849,1.4191
+hr=high,"exang=False, fbs=False",0.3,0.6216,1.4191
+"bp=prehyper, hr=high",dp=mild,0.1598,0.7171,1.4187
+"dp=mild, fbs=False",exang=False,0.3348,0.8127,1.416
+"bp=hyper, slope=flat",cp=asymptomatic,0.1087,0.7634,1.4159
+"fbs=False, sex=Female",hr=high,0.1217,0.6829,1.4151
+"age=40-50, hr=high",exang=False,0.112,0.811,1.4131
+"dp=mild, exang=False",hr=high,0.2772,0.6818,1.4128
+"ca=0.0, hr=high",exang=False,0.125,0.8099,1.4111
+"ca=0.0, fbs=False, hr=high",exang=False,0.1109,0.8095,1.4105
+"cp=non-anginal, exang=False",dp=mild,0.113,0.7123,1.4093
+thal=reversable defect,"cp=asymptomatic, sex=Male",0.1359,0.651,1.406
+"dp=severe, sex=Male",cp=asymptomatic,0.1293,0.758,1.4059
+"chol=high, fbs=False, hr=high",no_disease,0.112,0.628,1.4059
+"age=50-60, dp=mild, fbs=False",exang=False,0.1261,0.8056,1.4036
+"ca=0.0, exang=False",dp=mild,0.1033,0.709,1.4027
+"bp=prehyper, hr=high",exang=False,0.1793,0.8049,1.4024
+"bp=prehyper, exang=False, fbs=False",hr=high,0.15,0.6765,1.4017
+dp=mild,exang=False,0.4065,0.8043,1.4014
+exang=False,dp=mild,0.4065,0.7083,1.4014
+"no_disease, sex=Male",dp=mild,0.2054,0.7079,1.4005
+"exang=False, slope=upsloping",dp=mild,0.1185,0.7078,1.4004
+"disease, fbs=False, sex=Male",cp=asymptomatic,0.1337,0.7546,1.3997
+dp=severe,cp=asymptomatic,0.1435,0.7543,1.3991
+"bp=prehyper, dp=mild, sex=Male",no_disease,0.1087,0.625,1.399
+"chol=normal, hr=medium, sex=Male",cp=asymptomatic,0.1,0.7541,1.3987
+"cp=asymptomatic, exang=False, fbs=False",dp=mild,0.1022,0.7068,1.3983
+"ca=0.0, no_disease",dp=mild,0.1022,0.7068,1.3983
+"age=50-60, no_disease",exang=False,0.1413,0.8025,1.3982
+"age=50-60, dp=mild",exang=False,0.1609,0.8,1.3939
+"fbs=False, no_disease",hr=high,0.2576,0.6714,1.3912
+"chol=borderline, no_disease",exang=False,0.1076,0.7984,1.3911
+"bp=prehyper, hr=medium, sex=Male",cp=asymptomatic,0.1011,0.75,1.3911
+"bp=prehyper, exang=False, sex=Male",no_disease,0.1207,0.6201,1.3881
+"age=50-60, sex=Male, slope=flat",cp=asymptomatic,0.1,0.748,1.3874
+"exang=False, fbs=False, sex=Male",hr=high,0.2,0.6691,1.3864
+"chol=high, dp=mild",exang=False,0.1565,0.7956,1.3862
+"disease, fbs=False",cp=asymptomatic,0.1511,0.7473,1.3861
+"age=50-60, fbs=False, no_disease",exang=False,0.1141,0.7955,1.386
+"fbs=False, thal=normal",exang=False,0.1435,0.7952,1.3855
+"fbs=False, thal=reversable defect","cp=asymptomatic, sex=Male",0.1011,0.6414,1.3851
+"fbs=False, thal=normal",dp=mild,0.1261,0.6988,1.3826
+"chol=high, dp=mild, sex=Male",exang=False,0.1043,0.7934,1.3824
+"disease, sex=Male",cp=asymptomatic,0.1902,0.7447,1.3813
+disease,cp=asymptomatic,0.2141,0.7434,1.3789
+slope=upsloping,no_disease,0.1359,0.6158,1.3784
+age=40-50,"exang=False, fbs=False",0.1391,0.6038,1.3783
+"exang=False, sex=Male",dp=mild,0.287,0.6966,1.3782
+"dp=mild, fbs=False, sex=Male",no_disease,0.1826,0.6154,1.3775
+"age=50-60, dp=mild, sex=Male",exang=False,0.1228,0.7902,1.3769
+"fbs=False, no_disease, sex=Male",exang=False,0.1913,0.7892,1.3752
+"hr=medium, sex=Male",cp=asymptomatic,0.2359,0.7406,1.3737
+thal=normal,dp=mild,0.1478,0.6939,1.3728
+hr=high,no_disease,0.2957,0.6126,1.3713
+no_disease,hr=high,0.2957,0.6618,1.3713
+"no_disease, sex=Male",exang=False,0.2283,0.7865,1.3704
+"age=50-60, hr=medium, sex=Male",cp=asymptomatic,0.1043,0.7385,1.3697
+thal=normal,exang=False,0.1674,0.7857,1.369
+"fbs=False, hr=medium, sex=Male",cp=asymptomatic,0.1685,0.7381,1.369
+"bp=prehyper, hr=high, sex=Male",dp=mild,0.1098,0.6918,1.3687
+"age=50-60, no_disease",dp=mild,0.1217,0.6914,1.3678
+sex=Female,hr=high,0.1391,0.6598,1.3671
+"age=50-60, hr=high",no_disease,0.1141,0.6105,1.3665
+"dp=mild, fbs=False, sex=Male",exang=False,0.2326,0.7839,1.3659
+"dp=mild, exang=False, sex=Male",hr=high,0.1891,0.6591,1.3657
+"bp=prehyper, hr=high, sex=Male",exang=False,0.1239,0.7808,1.3605
+"fbs=False, sex=Female",exang=False,0.1391,0.7805,1.3599
+"bp=prehyper, dp=mild",hr=high,0.1598,0.6562,1.3598
+"chol=high, slope=flat",cp=asymptomatic,0.113,0.7324,1.3585
+"bp=prehyper, exang=False",hr=high,0.1793,0.6548,1.3567
+"fbs=False, no_disease, sex=Male",hr=high,0.1587,0.6547,1.3566
+"sex=Male, thal=reversable defect",cp=asymptomatic,0.1359,0.731,1.3559
+"age=50-60, dp=mild",no_disease,0.1217,0.6054,1.3552
+"fbs=False, hr=high",exang=False,0.3,0.7775,1.3547
+"fbs=False, hr=high",dp=mild,0.2641,0.6845,1.3543
+"fbs=False, sex=Male, slope=flat",cp=asymptomatic,0.1609,0.7291,1.3523
+"dp=moderate, sex=Male",cp=asymptomatic,0.1228,0.729,1.3522
+"bp=prehyper, dp=mild, fbs=False",hr=high,0.1326,0.6524,1.3518
+"ca=0.0, hr=high",dp=mild,0.1054,0.6831,1.3515
+"sex=Male, slope=flat",cp=asymptomatic,0.2185,0.7283,1.3508
+"dp=mild, sex=Male",exang=False,0.287,0.7742,1.349
+"chol=normal, hr=medium",cp=asymptomatic,0.1065,0.7259,1.3465
+"age=50-60, hr=medium","cp=asymptomatic, sex=Male",0.1043,0.6234,1.3463
+"fbs=False, hr=high, sex=Male",no_disease,0.1587,0.6008,1.3449
+"fbs=False, hr=high, sex=Male",dp=mild,0.1793,0.679,1.3434
+"age=50-60, no_disease",hr=high,0.1141,0.6481,1.343
+thal=reversable defect,cp=asymptomatic,0.1511,0.724,1.3428
+"no_disease, sex=Male",hr=high,0.188,0.6479,1.3426
+"chol=high, fbs=False, hr=high",dp=mild,0.1207,0.6768,1.3391
+hr=medium,"cp=asymptomatic, sex=Male",0.2359,0.62,1.339
+sex=Female,exang=False,0.162,0.768,1.3383
+"chol=normal, dp=mild",exang=False,0.1196,0.7639,1.331
+exang=False,hr=high,0.3685,0.642,1.3304
+hr=high,exang=False,0.3685,0.7635,1.3304
+"dp=mild, fbs=False",hr=high,0.2641,0.6412,1.3285
+"chol=high, fbs=False, hr=high",exang=False,0.1359,0.7622,1.3281
+"fbs=False, sex=Male, thal=reversable defect",cp=asymptomatic,0.1011,0.7154,1.3269
+"age=40-50, fbs=False",dp=mild,0.1326,0.6703,1.3262
+"age=50-60, exang=False, fbs=False",hr=high,0.1054,0.6382,1.3223
+slope=upsloping,exang=False,0.1674,0.7586,1.3218
+"fbs=False, slope=upsloping",exang=False,0.1261,0.7582,1.3211
+"bp=prehyper, exang=False, sex=Male",hr=high,0.1239,0.6369,1.3196
+"fbs=False, hr=high, sex=Male",exang=False,0.2,0.7572,1.3194
+"age=50-60, slope=flat",cp=asymptomatic,0.1174,0.7105,1.3179
+"fbs=False, thal=reversable defect",cp=asymptomatic,0.112,0.7103,1.3176
+"dp=moderate, slope=flat",cp=asymptomatic,0.1043,0.7059,1.3093
+"bp=prehyper, dp=mild, sex=Male",hr=high,0.1098,0.6313,1.308
+"fbs=False, hr=medium","cp=asymptomatic, sex=Male",0.1685,0.6055,1.3076
+"age=50-60, slope=flat","cp=asymptomatic, sex=Male",0.1,0.6053,1.3071
+"bp=prehyper, hr=medium","cp=asymptomatic, sex=Male",0.1011,0.6039,1.3042
+"chol=high, hr=high",dp=mild,0.1402,0.6582,1.3022
+"age=50-60, dp=mild, exang=False",hr=high,0.1011,0.6284,1.302
+slope=flat,cp=asymptomatic,0.263,0.7014,1.3011
+"age=50-60, hr=medium",cp=asymptomatic,0.1174,0.7013,1.3008
+"bp=prehyper, hr=medium",cp=asymptomatic,0.1174,0.7013,1.3008
+"age=50-60, fbs=False, hr=high",exang=False,0.1054,0.7462,1.3001
+"ca=0.0, fbs=False",exang=False,0.1304,0.7453,1.2987
+age=40-50,dp=mild,0.1511,0.6557,1.2972
+slope=upsloping,dp=mild,0.1446,0.6552,1.2963
+"hr=high, sex=Male",exang=False,0.2543,0.7405,1.2903
+ca=0.0,exang=False,0.1457,0.7403,1.29
+hr=medium,cp=asymptomatic,0.2641,0.6943,1.2878
+"bp=hyper, exang=False",dp=mild,0.1141,0.6481,1.2824
+"age=60-70, sex=Male",cp=asymptomatic,0.1337,0.691,1.2817
+"exang=False, sex=Male",hr=high,0.2543,0.6174,1.2793
+"bp=hyper, exang=False",hr=high,0.1087,0.6173,1.2791
+"fbs=False, sex=Female",dp=mild,0.1152,0.6463,1.2788
+"fbs=False, slope=flat",cp=asymptomatic,0.2,0.6891,1.2782
+"ca=0.0, fbs=False",dp=mild,0.113,0.646,1.278
+"exang=False, hr=medium",dp=mild,0.1109,0.6456,1.2773
+"age=50-60, hr=high",exang=False,0.137,0.7326,1.2764
+hr=high,dp=mild,0.3109,0.6441,1.2744
+dp=mild,hr=high,0.3109,0.6151,1.2744
+"age=50-60, exang=False",hr=high,0.137,0.6146,1.2736
+"chol=high, hr=high",exang=False,0.1554,0.7296,1.2713
+dp=moderate,cp=asymptomatic,0.1522,0.6829,1.2667
+sex=Female,dp=mild,0.1348,0.6392,1.2646
+"age=40-50, fbs=False",hr=high,0.1207,0.6099,1.2637
+"fbs=False, hr=medium",cp=asymptomatic,0.1891,0.6797,1.2607
+"chol=normal, exang=False",dp=mild,0.1196,0.6358,1.258
+"sex=Male, slope=upsloping",exang=False,0.1141,0.7192,1.2531
+"dp=mild, fbs=False, sex=Male",hr=high,0.1793,0.6044,1.2524
+"cp=asymptomatic, exang=False, sex=Male",dp=mild,0.1076,0.6306,1.2476
+cp=non-anginal,exang=False,0.1587,0.7157,1.247
+"bp=hyper, dp=mild",exang=False,0.1141,0.7143,1.2446
+"chol=high, hr=high, sex=Male",exang=False,0.1033,0.7143,1.2446
+"cp=non-anginal, fbs=False",exang=False,0.1217,0.7134,1.243
+"age=50-60, hr=high",dp=mild,0.1174,0.6279,1.2423
+"ca=0.0, dp=mild",fbs=False,0.113,0.9286,1.2345
+"hr=high, sex=Male",dp=mild,0.2141,0.6234,1.2334
+"age=60-70, fbs=False",cp=asymptomatic,0.1054,0.6644,1.2323
+"age=40-50, dp=mild, no_disease",fbs=False,0.1065,0.9245,1.2291
+age=60-70,cp=asymptomatic,0.1598,0.6622,1.2282
+"age=40-50, fbs=False",exang=False,0.1391,0.7033,1.2254
+"age=40-50, no_disease",fbs=False,0.1272,0.9213,1.2248
+ca=0.0,dp=mild,0.1217,0.6188,1.2243
+"cp=asymptomatic, exang=False",dp=mild,0.1304,0.6186,1.2238
+"cp=non-anginal, fbs=False",dp=mild,0.1054,0.6178,1.2224
+"age=40-50, exang=False, no_disease",fbs=False,0.1098,0.9182,1.2207
+"age=40-50, sex=Male",dp=mild,0.1065,0.6164,1.2194
+age=40-50,exang=False,0.1609,0.6981,1.2164
+bp=normal,exang=False,0.1228,0.6975,1.2154
+"ca=0.0, thal=normal",fbs=False,0.1141,0.913,1.2139
+"bp=prehyper, slope=flat",cp=asymptomatic,0.1109,0.6538,1.2128
+"chol=normal, unknown",sex=Male,0.1163,0.9554,1.2106
+"exang=True, fbs=False, unknown",sex=Male,0.1022,0.9495,1.2032
+"exang=False, no_disease, sex=Female",fbs=False,0.1239,0.9048,1.2029
+"dp=mild, hr=medium",exang=False,0.1109,0.6892,1.2009
+"no_disease, sex=Female",fbs=False,0.1413,0.9028,1.2002

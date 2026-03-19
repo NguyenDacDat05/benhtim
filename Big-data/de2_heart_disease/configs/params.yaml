@@ -1,0 +1,102 @@
+# ============================================================
+# Đề 2: Dự đoán bệnh tim - Heart Disease Prediction
+# Dataset: UCI/Kaggle Heart Disease Dataset
+# ============================================================
+
+# --- Paths ---
+paths:
+  raw_data: "data/raw/heart.csv"
+  processed_data: "data/processed/heart_processed.parquet"
+  outputs_figures: "outputs/figures"
+  outputs_tables: "outputs/tables"
+  outputs_models: "outputs/models"
+  outputs_reports: "outputs/reports"
+
+# --- General ---
+seed: 42
+test_size: 0.2
+val_size: 0.1
+target_col: "target"
+
+# --- Preprocessing ---
+preprocessing:
+  scaling_method: "standard"       # standard | minmax | robust
+  encoding_method: "label"         # label | onehot
+  handle_missing: "median"         # median | mean | drop
+  outlier_method: "iqr"            # iqr | zscore | none
+  outlier_threshold: 1.5
+
+# --- Feature Engineering ---
+features:
+  # Các bins rời rạc hoá cho Association Rules
+  age_bins: [0, 40, 50, 60, 70, 100]
+  age_labels: ["<40", "40-50", "50-60", "60-70", "70+"]
+  chol_bins: [0, 200, 240, 600]
+  chol_labels: ["normal", "borderline", "high"]
+  trestbps_bins: [0, 120, 140, 300]
+  trestbps_labels: ["normal", "prehyper", "hyper"]
+  thalach_bins: [0, 100, 140, 220]
+  thalach_labels: ["low", "medium", "high"]
+  oldpeak_bins: [-1, 0, 1, 2, 6]
+  oldpeak_labels: ["zero", "mild", "moderate", "severe"]
+
+# --- Association Rules (Apriori) ---
+association:
+  min_support: 0.1
+  min_confidence: 0.6
+  min_lift: 1.2
+  max_len: 4
+
+# --- Clustering ---
+clustering:
+  kmeans_k_range: [2, 3, 4, 5, 6, 7]
+  kmeans_best_k: 3
+  kmeans_init: "k-means++"
+  kmeans_n_init: 10
+  hac_linkage: "ward"
+  dbscan_eps: 0.5
+  dbscan_min_samples: 5
+  pca_n_components: 2
+
+# --- Classification ---
+classification:
+  cv_folds: 5
+  scoring: "f1"
+  imbalance_method: "smote"        # smote | class_weight | none
+  models:
+    logistic:
+      C: [0.01, 0.1, 1, 10]
+      max_iter: 1000
+    random_forest:
+      n_estimators: [100, 200]
+      max_depth: [null, 5, 10]
+      min_samples_split: [2, 5]
+    svm:
+      C: [0.1, 1, 10]
+      kernel: ["rbf", "linear"]
+      probability: true
+    xgboost:
+      n_estimators: [100, 200]
+      max_depth: [3, 5, 7]
+      learning_rate: [0.05, 0.1]
+      subsample: [0.8, 1.0]
+
+# --- Regression (tùy chọn: dự đoán trestbps/chol) ---
+regression:
+  target_col: "trestbps"
+  models:
+    linear: {}
+    ridge:
+      alpha: [0.1, 1.0, 10.0]
+    xgb_regressor:
+      n_estimators: [100, 200]
+      max_depth: [3, 5]
+      learning_rate: [0.05, 0.1]
+
+# --- Semi-supervised ---
+semi_supervised:
+  label_ratios: [0.05, 0.10, 0.20, 0.30]
+  self_training_threshold: 0.85
+  self_training_max_iter: 10
+  label_spreading_kernel: "rbf"
+  label_spreading_alpha: 0.2

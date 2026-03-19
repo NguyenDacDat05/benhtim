@@ -1,0 +1,4 @@
+﻿Model,MAE,RMSE,R2
+Linear Regression,0.7853,0.9998,0.0489
+Ridge,0.7853,0.9998,0.0489
+XGBRegressor,0.8111,1.0243,0.0019
