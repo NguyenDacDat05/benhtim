@@ -1,7 +1,7 @@
 # Đề 2: Dự đoán Bệnh Tim (Heart Disease Prediction)
 
 **Học phần:** Khai phá Dữ liệu | **HK II – 2025–2026**  
-**Giảng viên:** ThS. Lê Thị Thùy Trang  
+**Giảng viên:** ThS. Nguyễn Ngọc Ân 
 **Dataset:** [UCI/Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 ---
